@@ -1,0 +1,42 @@
+version: "3.0"
+
+services:
+  web:
+    container_name: "rd_app_b_web"
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    ports:
+      - 50010:8910
+    depends_on:
+      - postgres
+    networks:
+      - rw_app_network
+    environment:
+      DATABASE_URL: file:./dev.db
+      MODE: local
+
+  postgres:
+    container_name: "rw_app_b_postgres"
+    image: "postgres:14"
+    ports:
+      - "50013:5432"
+    volumes:
+      - database:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
+    environment:
+      - POSTGRES_USER=test01
+      - POSTGRES_PASSWORD=test01
+      - POSTGRES_DB=test01
+    networks:
+      - rw_app_network
+
+networks:
+  rw_app_network:
+    driver: bridge
+
+volumes:
+  database:
+    driver: local

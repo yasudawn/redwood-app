@@ -6,10 +6,10 @@
 # https://redwoodjs.com/docs/app-configuration-redwood-toml
 
 [web]
-  title = "Redwood App"
+  title = "Redwood App - testing Docker implementations"
   port = 8910
-  apiUrl = "/.redwood/functions"
-  #apiUrl = "http://localhost:8911"
+  apiUrl = "http://localhost:8921/api"
+  # ENV 環境変数設定  例：['SECRET_API_KEY', 'ANOTHER_ONE']
   includeEnvironmentVariables = [] # any ENV vars that should be available to the web side, see https://redwoodjs.com/docs/environment-variables#web
 [api]
   port = 8911

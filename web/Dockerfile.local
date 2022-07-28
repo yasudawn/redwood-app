@@ -1,0 +1,19 @@
+FROM node:14
+
+ENV LANG=C.UTF-8
+
+RUN apt update
+
+WORKDIR /app
+
+COPY .nvmrc .
+COPY graphql.config.js .
+COPY package.json .
+COPY redwood.toml .
+COPY yarn.lock .
+COPY web/package.json web/package.json
+
+RUN yarn install
+RUN yarn add react react-dom react-hook-form --ignore-workspace-root-check
+
+CMD yarn rw dev web
