@@ -140,7 +140,7 @@ export const handler = async (event, context) => {
       resetTokenExpiresAt: 'resetTokenExpiresAt',
     },
     cors: {
-      origin: 'http://localhost:8920/',
+      origin: 'http://localhost:8920',
       credentials: true,
     },
     // Specifies attributes on the cookie that dbAuth sets in order to remember
@@ -149,7 +149,7 @@ export const handler = async (event, context) => {
       HttpOnly: true,
       Path: '/',
       SameSite: 'None',
-      Secure: process.env.NODE_ENV !== 'development',
+      Secure: true //process.env.NODE_ENV !== 'development',
 
       // If you need to allow other domains (besides the api side) access to
       // the dbAuth session cookie:

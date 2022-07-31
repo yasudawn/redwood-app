@@ -999,7 +999,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-jsx@npm:^7.0.0, @babel/plugin-syntax-jsx@npm:^7.18.6":
+"@babel/plugin-syntax-jsx@npm:^7.0.0, @babel/plugin-syntax-jsx@npm:^7.17.12, @babel/plugin-syntax-jsx@npm:^7.18.6":
   version: 7.18.6
   resolution: "@babel/plugin-syntax-jsx@npm:7.18.6"
   dependencies:
@@ -1897,7 +1897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.5.0, @babel/runtime@npm:^7.7.6, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.18.9
   resolution: "@babel/runtime@npm:7.18.9"
   dependencies:
@@ -1977,6 +1977,840 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chakra-ui/accordion@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@chakra-ui/accordion@npm:2.0.7"
+  dependencies:
+    "@chakra-ui/descendant": 3.0.4
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/transition": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: e93541e759f984e733e3e92971b5995a21e05cc00d6523db296ae81059aaf4a264acdc2ca026657699be43747e9b90c1e22447a272157cd9df30ff062b036db2
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/alert@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/alert@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/spinner": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: fb1ac68e978b77dbdb4c73f8084bcdc64d74c146bf8db6abeee60a7a1bc8bd1b4732b8903704fc4919da562f75f91132e91ba8977b156118d0d992c375e99d42
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/anatomy@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@chakra-ui/anatomy@npm:2.0.2"
+  checksum: b1d8c7ae66c17d2bfdc2ce4b0279c4a18e652af40b39941a53f85c57c88edf3ef551dc380accd50430eea6cf41861ecd7eaf2eaea35a8a5995c8267f8a198a09
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/avatar@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/avatar@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/image": 2.0.6
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 0aab98b95deb36bb557d35dc742cc392c78c74f5954151aac039416801c0cf0faa3ca8abeb0e8c30db7532f9a30d5e0296dbef0565702093924b32d8bfd66c56
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/breadcrumb@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/breadcrumb@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 4cf9553121a6790be31925dcd7ff53ece08e9ca91a2e005745fdeac12df333ae1417bdeea3470d066b21d50bd1c973d6699bd0a70986935b30e8e59d5c256fb5
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/button@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/button@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/spinner": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 9aff0e12a9c2b7bd12aa3c2172f765643dc0baf25162961206c9157b297c4c6c02d0ef3afa50ded43291ac210ec12e7c79601910f2277d9539b9586f404f3df9
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/checkbox@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@chakra-ui/checkbox@npm:2.1.4"
+  dependencies:
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+    "@zag-js/focus-visible": 0.1.0
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: 9211c482fac7ef538f05d4b5ead6c03242b1bd2a675306a853fe9624e504d971cf1171b14b3cc5e0b428a0e7c3885f77cce9cd011ca82add71e7cbad0bb86cbe
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/clickable@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/clickable@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: 1028ec8c4fb47c2bdb678e6568b888255d76c30d98ce368f1d3ca638121d91d25a47e7df6929bff07372ca6affd8c771e8e30d591b918c6a446b9646338cfe3e
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/close-button@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/close-button@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 3884728dd5c10eb6bf1e999b1ff8e99a19989b18c1c2255b284d05c45d2dbbaf849a950d7e57b1c6e0881aafa0c24f84daaa892bed844e2f65b0161853afc6ed
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/color-mode@npm:2.1.3":
+  version: 2.1.3
+  resolution: "@chakra-ui/color-mode@npm:2.1.3"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: 48f94bee50d95d3f7c8e2e721dc0423896311ea49bcc8f1a3bff2f4235c8eb204fa54e1c396ce9f65a455a5f8d2a7ffe7e952136da1d55ff14af8439bb51f4fc
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/control-box@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/control-box@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: d0693a3abbc5310b2c8ec10a33182c070275f707ecb1e8fba7ae4eb86901548aca9fafd6098122932b87ffac883f2cb11555c2b2d1cbca91d6862eb70ee05974
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/counter@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/counter@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: 4cc5bae0ee601aed847bbbb01a81d83730d67e309795ed698946c308bb65a16e8c814d2b98b25ed1f3ebe73d5f9d3bbb3849256d053bf792d8fa6bcccc4c7bc8
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/css-reset@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@chakra-ui/css-reset@npm:2.0.2"
+  peerDependencies:
+    "@emotion/react": ">=10.0.35"
+    react: ">=18"
+  checksum: e51f77ae626f38216739a2cd9eb95c6e00ea36201d837ba72da33f7857e131b18ab46b30565daae50f0c3b2f8ee3e15485708ed9ebf53615c202da55cef6252a
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/descendant@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@chakra-ui/descendant@npm:3.0.4"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+  peerDependencies:
+    react: ">=18"
+  checksum: c5a982a4f67133dda95f590f46ae0fedd1997725956a99f2c4ad903d61ee6f8e3057707cf063fd6fce6ed4e336f75b41b11f2565039b1c043c0b0a71c44025b9
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/editable@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/editable@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 4946c8b066cba1f3fce728dcd3e91912be57772c4f76c275fc078c3d788e0c2efa114cb1aa5807cec7d52b9332f096ac6236beb5128d576deeb39ac8e78da5af
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/focus-lock@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/focus-lock@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+    react-focus-lock: ^2.9.1
+  peerDependencies:
+    react: ">=18"
+  checksum: 91a9449568b91808cced1cdaf81c3c8af2cfc94a83ea26c42ecac215d382becbbd3a89734a970777af5b09265646e99474f3d6bda541dc51e84d54dda94df2fe
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/form-control@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/form-control@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 2bdcafd5b8b0e620f81184233e73b986291206c564cb96570e98ced8f25b5dbaab3dd92054ab3665723bbd4ee511e5cce6bd62a09c2d0cd85024c4aa355312b4
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/hooks@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/hooks@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    compute-scroll-into-view: 1.0.14
+    copy-to-clipboard: 3.3.1
+  peerDependencies:
+    react: ">=18"
+  checksum: 458374c63816e878052bf4f7515423137f752d1c843c4b9eb17a44752a9826a14cc9d2151b23847be5056baa590e2c85ad9f033445e35d935482c06670f5c69b
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/icon@npm:3.0.5":
+  version: 3.0.5
+  resolution: "@chakra-ui/icon@npm:3.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: d6d219b6d3096a88d1d15a9cf8f34a426bdc7c5a2c1074257406eb26bbcbf852194719fdf8de476fbb1ad432db4d2f2c658b61f4edb7695161a8ebd505097800
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/image@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/image@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: faf66663ce187d54f4ae9064ea0e5860924bbd40f5ea7d951d38cbe34e6556758420fa4398265d28223e7b5a835bcc37c99c8c9845bfad6aee0a95f6f5b2fa9f
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/input@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/input@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 022055d218efdefcbee20f9c68dfb94d9c68fc1ec468be884842c0439724a7d6ffd4559e3a688f0aaa51715902f0b5eb2df6891fef05b06ff557897870a41a3c
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/layout@npm:2.1.2":
+  version: 2.1.2
+  resolution: "@chakra-ui/layout@npm:2.1.2"
+  dependencies:
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 02684652e8a2f573749a9fc3a2b57d9cac7d8af635daabafd789143bd8f767fcbb058d17596378d27c337274f935401a7a4a55c33b6122cb202c0f89319b5adc
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/live-region@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/live-region@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: dc44c9c6f35b83b4819f07a1dea10ddbe90418200a25b60f1dceef02881ee74e28b964b090f687f350c701976de928ec6bcc5aeed496b8026b80e9567ab41ede
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/media-query@npm:3.2.1":
+  version: 3.2.1
+  resolution: "@chakra-ui/media-query@npm:3.2.1"
+  dependencies:
+    "@chakra-ui/react-env": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    "@chakra-ui/theme": ">=2.0.0"
+    react: ">=18"
+  checksum: bd033783f75669e534301256303037be38f34fb0ddf16ecfac3da1b01a46f3f8462a8a34c471084cb0b2704d7818d7ef5835c4b3a50f84f7d2c89dd3b02ba699
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/menu@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@chakra-ui/menu@npm:2.0.7"
+  dependencies:
+    "@chakra-ui/clickable": 2.0.5
+    "@chakra-ui/descendant": 3.0.4
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/popper": 3.0.3
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/transition": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: 0bd190abb1e2255204dbee03d1a9f55a45483d371380a7f48e005fd3c93fee2cf78de4662911b8cad8c2387e9b9358eccf400c9506423b486a284faf618f5626
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/modal@npm:2.1.3":
+  version: 2.1.3
+  resolution: "@chakra-ui/modal@npm:2.1.3"
+  dependencies:
+    "@chakra-ui/close-button": 2.0.5
+    "@chakra-ui/focus-lock": 2.0.6
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/portal": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/transition": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+    aria-hidden: ^1.1.1
+    react-remove-scroll: ^2.5.4
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: bbff021bb15f1f8c205b45ba7d1b80cd93369c37e968041fac21ea7e21ffc2049ff413d2d4b70ff36ce3905a93e91f0957aeff1c67b6a537dc753e4b06de0e1e
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/number-input@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/number-input@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/counter": 2.0.5
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 4cc620b4dd89afcb0b0b7f3d53aa5a34a29eea2edd15934f73fd045089edd68dc25d5db3ae999f366ed89e5834153d3c6d73982bac07d420f88526977028ad61
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/pin-input@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@chakra-ui/pin-input@npm:2.0.7"
+  dependencies:
+    "@chakra-ui/descendant": 3.0.4
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: c89a05d2428124984c37b93ad6befe28c5f4959fd04dc807f527581792f0bbda868fe5c458c872adfe0f1704393ee2ffb449daa1b03793f74b8bd6f53656afe5
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/popover@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/popover@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/close-button": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/popper": 3.0.3
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: fb66665b1b642c500fd4407f4a369e86e36e3dbeb09bb8e0d4dcc7b5db6723ebd949ac2319f5ae61798f3e107c8971e0367fdfbd87ded29b22772612739316cd
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/popper@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@chakra-ui/popper@npm:3.0.3"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@popperjs/core": ^2.9.3
+  peerDependencies:
+    react: ">=18"
+  checksum: 47835929e00bda43396356fe290d340ad5f160f7fc038be5d4dcdcfd934c9f77cb8c4c18aae8b7ccd29fa06d6ba39af84a3fdcfb962beeb7b37d9bb30e5606d6
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/portal@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/portal@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 9740eed96a0150bb944b78b54bbfa17f12174ef92dfb6497c22ae4ab5f82ad33fc1fd11109f145e5e0fa73c5d9dbcef899175a9e5cc1a2123fe1f82abd82159c
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/progress@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/progress@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/theme-tools": 2.0.6
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 352029906dc8ba7ac32d2f7d41a753af393099d9a6f53262c31bbc5c5f030ca37c36916fd9fb03369a5f164ed19ed544c422613e5e3804e61af47f50bba5af55
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/provider@npm:2.0.10":
+  version: 2.0.10
+  resolution: "@chakra-ui/provider@npm:2.0.10"
+  dependencies:
+    "@chakra-ui/css-reset": 2.0.2
+    "@chakra-ui/portal": 2.0.5
+    "@chakra-ui/react-env": 2.0.5
+    "@chakra-ui/system": 2.2.3
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@emotion/react": ^11.0.0
+    "@emotion/styled": ^11.0.0
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: e21b755425e9a1145b7ae02eb9084117cce3e90982004e06df4a802e18e5ad1db014c6386ebfe77e828fcfdf69e2b6dc8a1116c1679d278be5ec9914aeb0049d
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/radio@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/radio@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+    "@zag-js/focus-visible": 0.1.0
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 7227cb77580051c802ccc0046e63f41a9dc1dde5e30ea807095a5284a5af1f243746267331f874d6c08be3128ddea6bc5a3fe5a57983098d397c6dea6e35f4b3
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/react-env@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/react-env@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: 1a8095e15c7e55246a5e501a3da3e03293906ab0e748f452bdc83627012af780b62427d8a38957e60890c07d7fbf345adc73e54e16c2e8e62653227f2c267e12
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/react-utils@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@chakra-ui/react-utils@npm:2.0.2"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    react: ">=18"
+  checksum: 0aa0564741568fb778ed1bc87d16a4da33e63fd151c95b5d9451cb76e3199d6237bbee9dd883ea9cdf7f5fdc0f60a3cd0dd1fe1428bb58caf9833f31461d7226
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/react@npm:^2.2.4":
+  version: 2.2.5
+  resolution: "@chakra-ui/react@npm:2.2.5"
+  dependencies:
+    "@chakra-ui/accordion": 2.0.7
+    "@chakra-ui/alert": 2.0.5
+    "@chakra-ui/avatar": 2.0.6
+    "@chakra-ui/breadcrumb": 2.0.5
+    "@chakra-ui/button": 2.0.5
+    "@chakra-ui/checkbox": 2.1.4
+    "@chakra-ui/close-button": 2.0.5
+    "@chakra-ui/control-box": 2.0.5
+    "@chakra-ui/counter": 2.0.5
+    "@chakra-ui/css-reset": 2.0.2
+    "@chakra-ui/editable": 2.0.5
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/image": 2.0.6
+    "@chakra-ui/input": 2.0.5
+    "@chakra-ui/layout": 2.1.2
+    "@chakra-ui/live-region": 2.0.5
+    "@chakra-ui/media-query": 3.2.1
+    "@chakra-ui/menu": 2.0.7
+    "@chakra-ui/modal": 2.1.3
+    "@chakra-ui/number-input": 2.0.5
+    "@chakra-ui/pin-input": 2.0.7
+    "@chakra-ui/popover": 2.0.5
+    "@chakra-ui/popper": 3.0.3
+    "@chakra-ui/portal": 2.0.5
+    "@chakra-ui/progress": 2.0.6
+    "@chakra-ui/provider": 2.0.10
+    "@chakra-ui/radio": 2.0.6
+    "@chakra-ui/react-env": 2.0.5
+    "@chakra-ui/select": 2.0.5
+    "@chakra-ui/skeleton": 2.0.10
+    "@chakra-ui/slider": 2.0.5
+    "@chakra-ui/spinner": 2.0.5
+    "@chakra-ui/stat": 2.0.5
+    "@chakra-ui/switch": 2.0.7
+    "@chakra-ui/system": 2.2.3
+    "@chakra-ui/table": 2.0.5
+    "@chakra-ui/tabs": 2.0.7
+    "@chakra-ui/tag": 2.0.5
+    "@chakra-ui/textarea": 2.0.6
+    "@chakra-ui/theme": 2.1.4
+    "@chakra-ui/toast": 3.0.3
+    "@chakra-ui/tooltip": 2.0.6
+    "@chakra-ui/transition": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+  peerDependencies:
+    "@emotion/react": ^11.0.0
+    "@emotion/styled": ^11.0.0
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 1686886b84418c9727028269092b95e8a829619312dd2211b64adee8289c6bf3c734e090ce4526ec2548b6b40ea425fbc11b0c7475a7a698dc267e663ec0698c
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/select@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/select@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 7f27df28bbe01f4eb13bff27aea814a5426a431c848854a9223034197b647b7227bd3dc51f61770f45b62aee9382f448b37106b0486ec7346d6bdb69817bfaba
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/skeleton@npm:2.0.10":
+  version: 2.0.10
+  resolution: "@chakra-ui/skeleton@npm:2.0.10"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/media-query": 3.2.1
+    "@chakra-ui/system": 2.2.3
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/theme": ">=2.0.0"
+    "@emotion/react": ^11.0.0
+    "@emotion/styled": ^11.0.0
+    react: ">=18"
+  checksum: 56003ed104906e6158a114decf2094036b231f956340f849118ea7b1a79e20f82f33401fc34b4686d9fd2c86fd5fb8b112288db2c4ca15c9d864ec0008725447
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/slider@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/slider@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: ec1459f4ad58fb746f75ff23246ef843aee1b18cad2cadeb33d47ba60ea51e24ffc7e44d72bc8b25fe3f8ca42a525c51ef93996264e8b6f8407abc869e198188
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/spinner@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/spinner@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 4d42e887a272da4731fd4883655ce2aafa319d9628af334f24813720f64f15521f7fe28d8189fc20f191fff7b53073acc84a5d1e44a45b52ac5c71d15d658b80
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/stat@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/stat@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: aebb1a43c27b5af63426f3e299688cb140489dfb315dad3618d8de0cfd17e66d9fb5fc59afac3cc1711111e33bd8d3223e3b537c35370c4957a2fa67dbd18965
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/styled-system@npm:2.2.4":
+  version: 2.2.4
+  resolution: "@chakra-ui/styled-system@npm:2.2.4"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+    csstype: ^3.0.11
+  checksum: 0736e5ca03fafdc725c972026a7b1c6108bf1072ab534b91dd80782ff76fff3577a54caa738f02157253749eff0545fe1c461af96e8b739f9759ff5a5028dd0d
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/switch@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@chakra-ui/switch@npm:2.0.7"
+  dependencies:
+    "@chakra-ui/checkbox": 2.1.4
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: 2b0703e6e2aa69b5d9b5260c6d6c15482db976a2f24801fe68e442e375be03ed620957ec2c829d5757ecdbc4ff5d86a174a78cebc58b2c95db4b63d43c5fb41f
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/system@npm:2.2.3":
+  version: 2.2.3
+  resolution: "@chakra-ui/system@npm:2.2.3"
+  dependencies:
+    "@chakra-ui/color-mode": 2.1.3
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/styled-system": 2.2.4
+    "@chakra-ui/utils": 2.0.5
+    react-fast-compare: 3.2.0
+  peerDependencies:
+    "@emotion/react": ^11.0.0
+    "@emotion/styled": ^11.0.0
+    react: ">=18"
+  checksum: 404d64e52d9a8ead6da7829a9174c9a39ad014656fefe9274899792e5b02e125c9c62afbe62f3902af3c9e807614d063336e726062ef95aac197d062fd9e846c
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/table@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/table@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 8456041477b3989e1aa3408ffb00cb71658f8112e789e86496421bcca8547830951abc3b74663f58b44dd163c9dc9ea67c5128e2a0bfec40c79475aa98f84e26
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/tabs@npm:2.0.7":
+  version: 2.0.7
+  resolution: "@chakra-ui/tabs@npm:2.0.7"
+  dependencies:
+    "@chakra-ui/clickable": 2.0.5
+    "@chakra-ui/descendant": 3.0.4
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 55ad03c8879daf1a5086e6ca56c1448e79ada7d2946f77f15e71f124629051cd2ecb5acc9f38e7fda958da60f83143b79df0310348ebf5b16e3e5b6e656415c6
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/tag@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/tag@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/icon": 3.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: 00213a70fbeda2bc1ae66b013b36a0dd2cb8a892dd67f7945352196ee091a7775ce2ed75c25709f8ccca381e0f577706595a5eaa0ab2217d8d25ddf12a387fcb
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/textarea@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/textarea@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/form-control": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: f646702730c001a46c5e9a50e72490898958af15d0e7ec610231e804dc9b19794bd1f613f9d8957abe86c24c1250f8d83de12e8799493c6f1ec9bbe98f479e30
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/theme-tools@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/theme-tools@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/anatomy": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    "@ctrl/tinycolor": ^3.4.0
+  peerDependencies:
+    "@chakra-ui/styled-system": ">=2.0.0"
+  checksum: 9059fd793b39b9023260fd3b0238809f9bcbea1fac6ae48651130b537c362900ca9bd45f561bb1426ceb3cdbdb55fce0beae3d8c9f85bb1bf9c8b419b4c227c7
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/theme@npm:2.1.4":
+  version: 2.1.4
+  resolution: "@chakra-ui/theme@npm:2.1.4"
+  dependencies:
+    "@chakra-ui/anatomy": 2.0.2
+    "@chakra-ui/theme-tools": 2.0.6
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/styled-system": ">=2.0.0"
+  checksum: 65382b7133dd183a2c48044f5e31882c37da71214e162dc950a3183eadb2eed0f1473d1f12604113d2a1454a22a06666c1d5f9a358b4b7155ca2cf235b18041f
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/toast@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@chakra-ui/toast@npm:3.0.3"
+  dependencies:
+    "@chakra-ui/alert": 2.0.5
+    "@chakra-ui/close-button": 2.0.5
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/portal": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/theme": 2.1.4
+    "@chakra-ui/transition": 2.0.5
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": 2.2.3
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 68e3364d3affca5813ec93d269618b02bb55703ddd9c81f8a5d17d3b9890cae3c65e9feb8dab1a40ef8c165b9aef0b4bcd4d53995affe7413fc87047cc03f704
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/tooltip@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@chakra-ui/tooltip@npm:2.0.6"
+  dependencies:
+    "@chakra-ui/hooks": 2.0.5
+    "@chakra-ui/popper": 3.0.3
+    "@chakra-ui/portal": 2.0.5
+    "@chakra-ui/react-utils": 2.0.2
+    "@chakra-ui/utils": 2.0.5
+    "@chakra-ui/visually-hidden": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+    react-dom: ">=18"
+  checksum: 301ebca867c47df8d507c95652a3ab96562a9c55231a42080cf36ac40d4ca132ac43fdf5e6e0bed406c3c5b3924b462e1664cee421b1f6b1403444b897d0054c
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/transition@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/transition@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    framer-motion: ">=4.0.0"
+    react: ">=18"
+  checksum: f97feb528127f306323a258ff657b88a8224b6622c7d7b5ce55940e1c7abe4d3c435cf06afe61d3f4fdb31feb948d0ca0f0079e88dd157a25707def698b628f3
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/utils@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/utils@npm:2.0.5"
+  dependencies:
+    "@types/lodash.mergewith": 4.6.6
+    css-box-model: 1.2.1
+    framesync: 5.3.0
+    lodash.mergewith: 4.6.2
+  checksum: 7aa8f1cac6ffc15c9e2c31b65833e48d09b4efda3242c44e3b80a02f10ac10733fd7a2ca87ab617464e38c6fc212303ce48e7ab8c625ac838b7b301e80f25d7d
+  languageName: node
+  linkType: hard
+
+"@chakra-ui/visually-hidden@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@chakra-ui/visually-hidden@npm:2.0.5"
+  dependencies:
+    "@chakra-ui/utils": 2.0.5
+  peerDependencies:
+    "@chakra-ui/system": ">=2.0.0"
+    react: ">=18"
+  checksum: bdeaea8ec94f5ee5563690eb85b547f8dc6bff4ec8cd3a36e822defbd98f13843b2b12c7fdbd762d1f96167132962a1c0353654eaf2ab5acc9fe9f728c3245f4
+  languageName: node
+  linkType: hard
+
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -1996,10 +2830,177 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ctrl/tinycolor@npm:^3.4.0":
+  version: 3.4.1
+  resolution: "@ctrl/tinycolor@npm:3.4.1"
+  checksum: 19ceece8af3fa908172ba92c124ffa3e436864ad978c9fc39fc965f69b044eddf3d68f07251f378f9f915e69d9fb42f2096cad8b674eebc1d56924583792507e
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:^0.5.0, @discoveryjs/json-ext@npm:^0.5.3":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
   checksum: e10f1b02b78e4812646ddf289b7d9f2cb567d336c363b266bd50cd223cf3de7c2c74018d91cd2613041568397ef3a4a2b500aba588c6e5bd78c38374ba68f38c
+  languageName: node
+  linkType: hard
+
+"@emotion/babel-plugin@npm:^11.7.1":
+  version: 11.9.5
+  resolution: "@emotion/babel-plugin@npm:11.9.5"
+  dependencies:
+    "@babel/helper-module-imports": ^7.16.7
+    "@babel/plugin-syntax-jsx": ^7.17.12
+    "@babel/runtime": ^7.18.3
+    "@emotion/hash": ^0.8.0
+    "@emotion/memoize": ^0.7.5
+    "@emotion/serialize": ^1.0.2
+    babel-plugin-macros: ^3.1.0
+    convert-source-map: ^1.5.0
+    escape-string-regexp: ^4.0.0
+    find-root: ^1.1.0
+    source-map: ^0.5.7
+    stylis: 4.0.13
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: b59413149259fa7e518209f4b8c71685f4ac94b552ddc7ead971d68458d333bcc2a31a3fb2ed4e756a231f883fbc539cfc411e58034cf7a84c3aa2d41bb10bb3
+  languageName: node
+  linkType: hard
+
+"@emotion/cache@npm:^11.9.3":
+  version: 11.9.3
+  resolution: "@emotion/cache@npm:11.9.3"
+  dependencies:
+    "@emotion/memoize": ^0.7.4
+    "@emotion/sheet": ^1.1.1
+    "@emotion/utils": ^1.0.0
+    "@emotion/weak-memoize": ^0.2.5
+    stylis: 4.0.13
+  checksum: 8592bc55bfe331ce8bd1bc4900a0fec801dc916d191400b8a4b10551ca37b05d3a21aa53cddd23929469f9e5361ef0591b03b6963da66cfe5d282df82e26e0a6
+  languageName: node
+  linkType: hard
+
+"@emotion/hash@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@emotion/hash@npm:0.8.0"
+  checksum: 706303d35d416217cd7eb0d36dbda4627bb8bdf4a32ea387e8dd99be11b8e0a998e10af21216e8a5fade518ad955ff06aa8890f20e694ce3a038ae7fc1000556
+  languageName: node
+  linkType: hard
+
+"@emotion/is-prop-valid@npm:^0.8.2":
+  version: 0.8.8
+  resolution: "@emotion/is-prop-valid@npm:0.8.8"
+  dependencies:
+    "@emotion/memoize": 0.7.4
+  checksum: f6be625f067c7fa56a12a4edaf090715616dc4fc7803c87212831f38c969350107b9709b1be54100e53153b18d9fa068eb4bf4f9ac66a37a8edf1bac9b64e279
+  languageName: node
+  linkType: hard
+
+"@emotion/is-prop-valid@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "@emotion/is-prop-valid@npm:1.1.3"
+  dependencies:
+    "@emotion/memoize": ^0.7.4
+  checksum: 29b57699b1db1d6f0efdc86a65d161ffd7e715c17c14884fdbc31562c28166d0814284e3e79865bf1ffa21ca84aca3fa2a4b0d6cb68cde3c6b85faf16fa1727f
+  languageName: node
+  linkType: hard
+
+"@emotion/memoize@npm:0.7.4":
+  version: 0.7.4
+  resolution: "@emotion/memoize@npm:0.7.4"
+  checksum: b2376548fc147b43afd1ff005a80a1a025bd7eb4fb759fdb23e96e5ff290ee8ba16628a332848d600fb91c3cdc319eee5395fa33d8875e5d5a8c4ce18cddc18e
+  languageName: node
+  linkType: hard
+
+"@emotion/memoize@npm:^0.7.4, @emotion/memoize@npm:^0.7.5":
+  version: 0.7.5
+  resolution: "@emotion/memoize@npm:0.7.5"
+  checksum: 28d061ec9fb9b8c495d58b4e2dcc62207d75d4e8d8f4e6a0b42342d6e7c649d41461e807363d1a0a2c33d2235f6ee59dd6394fbec88b7da65e3d5852fc34387e
+  languageName: node
+  linkType: hard
+
+"@emotion/react@npm:^11.9.3":
+  version: 11.9.3
+  resolution: "@emotion/react@npm:11.9.3"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@emotion/babel-plugin": ^11.7.1
+    "@emotion/cache": ^11.9.3
+    "@emotion/serialize": ^1.0.4
+    "@emotion/utils": ^1.1.0
+    "@emotion/weak-memoize": ^0.2.5
+    hoist-non-react-statics: ^3.3.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    react: ">=16.8.0"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    "@types/react":
+      optional: true
+  checksum: f32dbae3110d4c391d6ec51d8c3d86235303d858c8ebf1e90b3d35bcadeb73c0f4557e73ba824e9dbf7f269d0413bc2877e3f4bc2e2b1157b08fbb10b51e18eb
+  languageName: node
+  linkType: hard
+
+"@emotion/serialize@npm:^1.0.2, @emotion/serialize@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@emotion/serialize@npm:1.0.4"
+  dependencies:
+    "@emotion/hash": ^0.8.0
+    "@emotion/memoize": ^0.7.4
+    "@emotion/unitless": ^0.7.5
+    "@emotion/utils": ^1.0.0
+    csstype: ^3.0.2
+  checksum: ad2d5aba32177ae305918ccebd1e7a8d1d2886dc2083d9a031853169f9713012aee998ddd8a3d62d63eade1cfa4c077de5b260ed664a77583428d3df65dd193a
+  languageName: node
+  linkType: hard
+
+"@emotion/sheet@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@emotion/sheet@npm:1.1.1"
+  checksum: be65c618965123b9012eb9535e256a6ba172bd67389f91de8a38dd4db00bed2534e8f5a2b22e2ab2fabb41946259bedc1c18c09acd24021490484aeed9bb1f90
+  languageName: node
+  linkType: hard
+
+"@emotion/styled@npm:^11.9.3":
+  version: 11.9.3
+  resolution: "@emotion/styled@npm:11.9.3"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@emotion/babel-plugin": ^11.7.1
+    "@emotion/is-prop-valid": ^1.1.3
+    "@emotion/serialize": ^1.0.4
+    "@emotion/utils": ^1.1.0
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    "@emotion/react": ^11.0.0-rc.0
+    react: ">=16.8.0"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    "@types/react":
+      optional: true
+  checksum: 0f80eecde2a36cc1bc7065232ead9b4a4a9cba9a48fa8c508c8ae5cdcbfef36cce997f8087f47b008301f9b63ede76e5e43d2e7264a5a0548b8d179c492a41bc
+  languageName: node
+  linkType: hard
+
+"@emotion/unitless@npm:^0.7.5":
+  version: 0.7.5
+  resolution: "@emotion/unitless@npm:0.7.5"
+  checksum: 4d0d94f53cb97b4481bbfa394953e1899a0b877644642ba9dd7247c27eb8c48e14e22aeb11411d7d9874685ad85dd5fb5b50eb78c6d8840eb56a84b92dcef2f4
+  languageName: node
+  linkType: hard
+
+"@emotion/utils@npm:^1.0.0, @emotion/utils@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@emotion/utils@npm:1.1.0"
+  checksum: 4659bb4c447fa8c5303fae5cae829c22ce29ba0d9e0a8fb1f3f33b8bfd9304a435af327abccbf133040eeb1771a572fad3e68decd267e26459b8ea6ea1f2ba68
+  languageName: node
+  linkType: hard
+
+"@emotion/weak-memoize@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@emotion/weak-memoize@npm:0.2.5"
+  checksum: cabfaaecabbb407d323098afc0bb2dd2ec9aaea0672f8f2c54b84b99d5f8cc680356cf166583fd5593330ceef29f2c26554c2c65dff06c0a8f5f8c7da69d89f1
   languageName: node
   linkType: hard
 
@@ -3245,6 +4246,71 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@motionone/animation@npm:^10.12.0":
+  version: 10.13.1
+  resolution: "@motionone/animation@npm:10.13.1"
+  dependencies:
+    "@motionone/easing": ^10.13.1
+    "@motionone/types": ^10.13.0
+    "@motionone/utils": ^10.13.1
+    tslib: ^2.3.1
+  checksum: f79d3f96cbc4a35ba1480f3389ed31b6b7a797f930235ac992a710ad98272a0003b8f98f75fc2c4f8e27e42f4f2acd6196d11377a511a5b7e9dfab18f18b389b
+  languageName: node
+  linkType: hard
+
+"@motionone/dom@npm:10.12.0":
+  version: 10.12.0
+  resolution: "@motionone/dom@npm:10.12.0"
+  dependencies:
+    "@motionone/animation": ^10.12.0
+    "@motionone/generators": ^10.12.0
+    "@motionone/types": ^10.12.0
+    "@motionone/utils": ^10.12.0
+    hey-listen: ^1.0.8
+    tslib: ^2.3.1
+  checksum: 1af6cd8d8518ebbd90d74f15443ad94d7d03bf9e7e1455a5cb6768a53ba8dac6906ca121e9c1f42b8d53a8ab7c19d14e4731c10231b5dc7102628f32659faea2
+  languageName: node
+  linkType: hard
+
+"@motionone/easing@npm:^10.13.1":
+  version: 10.13.1
+  resolution: "@motionone/easing@npm:10.13.1"
+  dependencies:
+    "@motionone/utils": ^10.13.1
+    tslib: ^2.3.1
+  checksum: 90d843ebced63caa5408e7dd12c10bcad9c376c0265c49884de607d720e513bc5c0801e01f1ec0f2120d23cc4b2e82c0a58bdf5c7e516f9e8f890e814cdcc031
+  languageName: node
+  linkType: hard
+
+"@motionone/generators@npm:^10.12.0":
+  version: 10.13.1
+  resolution: "@motionone/generators@npm:10.13.1"
+  dependencies:
+    "@motionone/types": ^10.13.0
+    "@motionone/utils": ^10.13.1
+    tslib: ^2.3.1
+  checksum: 051574422c0c2f7e17a830095ea3733ef7e502011c85979d0158c0dc7dea515aa76cbfe0541b097721ab66f0afda28f05c1dee8ea209b2dc49e66a009f7e820b
+  languageName: node
+  linkType: hard
+
+"@motionone/types@npm:^10.12.0, @motionone/types@npm:^10.13.0":
+  version: 10.13.0
+  resolution: "@motionone/types@npm:10.13.0"
+  checksum: e3ef9e3d25e624075ca2839aab47c3fd288c1d3d8600b343e32233016fa764f5e91e4510254c3520f7a23cf1904f98f97344c533303395864da3050bf46d655c
+  languageName: node
+  linkType: hard
+
+"@motionone/utils@npm:^10.12.0, @motionone/utils@npm:^10.13.1":
+  version: 10.13.1
+  resolution: "@motionone/utils@npm:10.13.1"
+  dependencies:
+    "@motionone/types": ^10.13.0
+    hey-listen: ^1.0.8
+    tslib: ^2.3.1
+  checksum: e2230d8411c5a43edfef08e9b33067209b83e46bcdb51ae33096c34b5642e33cbd78d2b7edf4b5a309bc9b54e5bf21996a3efe9fd764e5b6d991ec0e839dad9b
+  languageName: node
+  linkType: hard
+
 "@mrmlnc/readdir-enhanced@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mrmlnc/readdir-enhanced@npm:2.2.1"
@@ -3426,6 +4492,13 @@ __metadata:
   version: 1.0.0-next.21
   resolution: "@polka/url@npm:1.0.0-next.21"
   checksum: 53c1f28683a075aac41f8ce2a54eb952b6bc67a03494b2dca1cb63d833a6da898cea6a92df8e1e6b680db985fb7f9c16e11c20afa6584bcdda68a16fb4c18737
+  languageName: node
+  linkType: hard
+
+"@popperjs/core@npm:^2.9.3":
+  version: 2.11.5
+  resolution: "@popperjs/core@npm:2.11.5"
+  checksum: 1253c23004dbd69a48f6d0c2febbb9fca2173deab2bdb1d34f46f9870f913b121e7d113a852088544bb2ec175ff6db645169ffc84fad6febc1b533fa052804e1
   languageName: node
   linkType: hard
 
@@ -5915,7 +6988,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.167":
+"@types/lodash.mergewith@npm:4.6.6":
+  version: 4.6.6
+  resolution: "@types/lodash.mergewith@npm:4.6.6"
+  dependencies:
+    "@types/lodash": "*"
+  checksum: d8ab2d6cb0754e37240492fca1f245ebafc9f9c1342de323bff0a08006445021821b7050c6eb83582454d2ec0424459d8d28886ad30656dd04d8df34121184d0
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:*, @types/lodash@npm:^4.14.167":
   version: 4.14.182
   resolution: "@types/lodash@npm:4.14.182"
   checksum: d6bd4789dfb3be631d5e3277e6a1be5becb21440f3364f5d15b982c2e6b6bb1f8048d46fc5bff5ef0f90bebaf4d07c49b2919ba369d07af72d3beb3fea70c61a
@@ -6823,6 +7905,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@zag-js/focus-visible@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@zag-js/focus-visible@npm:0.1.0"
+  checksum: 4bf0f4dd660e66957fa4a914d1e4de8e51aca96c951da8c09d357ddbddbbce37995d27dc96265b1622a341e15592da9a84e8ac2a15493fe172b6696d73204f03
+  languageName: node
+  linkType: hard
+
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -7341,6 +8430,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"aria-hidden@npm:^1.1.1":
+  version: 1.1.3
+  resolution: "aria-hidden@npm:1.1.3"
+  dependencies:
+    tslib: ^1.0.0
+  checksum: 0a8a5ca5e2d273fd4dff3eed74cbfff0cba4d9bd7bb6d8beab966a1a60aa43de9abac301eada2cb6f639dd72ae6001a4906183bc1aeebcca0bd53a5a862b4f59
+  languageName: node
+  linkType: hard
+
 "aria-query@npm:^4.2.2":
   version: 4.2.2
   resolution: "aria-query@npm:4.2.2"
@@ -7846,7 +8944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-macros@npm:^3.0.1":
+"babel-plugin-macros@npm:^3.0.1, babel-plugin-macros@npm:^3.1.0":
   version: 3.1.0
   resolution: "babel-plugin-macros@npm:3.1.0"
   dependencies:
@@ -9433,6 +10531,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"compute-scroll-into-view@npm:1.0.14":
+  version: 1.0.14
+  resolution: "compute-scroll-into-view@npm:1.0.14"
+  checksum: f2f2463b397d9ba512df4edf9b6d2c24692cbe63c0d212d2b60bddcd94cc11a4531e82bca584fbfdf284966ef2527bfb2be7b9cdc6263735d2f949f0cce77e6a
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -9540,7 +10645,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"convert-source-map@npm:^1.1.0, convert-source-map@npm:^1.4.0, convert-source-map@npm:^1.6.0, convert-source-map@npm:^1.7.0":
+"convert-source-map@npm:^1.1.0, convert-source-map@npm:^1.4.0, convert-source-map@npm:^1.5.0, convert-source-map@npm:^1.6.0, convert-source-map@npm:^1.7.0":
   version: 1.8.0
   resolution: "convert-source-map@npm:1.8.0"
   dependencies:
@@ -9588,6 +10693,15 @@ __metadata:
   version: 0.1.1
   resolution: "copy-descriptor@npm:0.1.1"
   checksum: 161f6760b7348c941007a83df180588fe2f1283e0867cc027182734e0f26134e6cc02de09aa24a95dc267b2e2025b55659eef76c8019df27bc2d883033690181
+  languageName: node
+  linkType: hard
+
+"copy-to-clipboard@npm:3.3.1":
+  version: 3.3.1
+  resolution: "copy-to-clipboard@npm:3.3.1"
+  dependencies:
+    toggle-selection: ^1.0.6
+  checksum: cc38a2a07ec22b1b60c6bd1648a21178fade4d972b43e4c2570f36f8df59ca2b7e9f8a6125d271cf2927367d3ec4012c92deaf244c12cd79509244d5c7f0f4dd
   languageName: node
   linkType: hard
 
@@ -9894,6 +11008,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-box-model@npm:1.2.1":
+  version: 1.2.1
+  resolution: "css-box-model@npm:1.2.1"
+  dependencies:
+    tiny-invariant: ^1.0.6
+  checksum: 611e56d76b16e4e21956ed9fa53f1936fbbfaccd378659587e9c929f342037fc6c062f8af9447226e11fe7c95e31e6c007a37e592f9bff4c2d40e6915553104a
+  languageName: node
+  linkType: hard
+
 "css-declaration-sorter@npm:^6.3.0":
   version: 6.3.0
   resolution: "css-declaration-sorter@npm:6.3.0"
@@ -10164,7 +11287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2":
+"csstype@npm:^3.0.11, csstype@npm:^3.0.2":
   version: 3.1.0
   resolution: "csstype@npm:3.1.0"
   checksum: 4edcf1eb8b8e83e8b1dc557d9f61e720012e6d2453f4c05fa4221dacf604c4d7552383f0cead9adea4b3f23e3da3aa25cc4fb05823b51fb1cbad43e1d8bb45ff
@@ -10529,6 +11652,13 @@ __metadata:
   version: 3.1.0
   resolution: "detect-newline@npm:3.1.0"
   checksum: c38cfc8eeb9fda09febb44bcd85e467c970d4e3bf526095394e5a4f18bc26dd0cf6b22c69c1fa9969261521c593836db335c2795218f6d781a512aea2fb8209d
+  languageName: node
+  linkType: hard
+
+"detect-node-es@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "detect-node-es@npm:1.1.0"
+  checksum: e562f00de23f10c27d7119e1af0e7388407eb4b06596a25f6d79a360094a109ff285de317f02b090faae093d314cf6e73ac3214f8a5bb3a0def5bece94557fbe
   languageName: node
   linkType: hard
 
@@ -12649,6 +13779,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"find-root@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "find-root@npm:1.1.0"
+  checksum: 1abc7f3bf2f8d78ff26d9e00ce9d0f7b32e5ff6d1da2857bcdf4746134c422282b091c672cde0572cac3840713487e0a7a636af9aa1b74cb11894b447a521efa
+  languageName: node
+  linkType: hard
+
 "find-up@npm:5.0.0, find-up@npm:^5.0.0":
   version: 5.0.0
   resolution: "find-up@npm:5.0.0"
@@ -12740,6 +13877,15 @@ __metadata:
     inherits: ^2.0.3
     readable-stream: ^2.3.6
   checksum: 2cd4f65b728d5f388197a03dafabc6a5e4f0c2ed1a2d912e288f7aa1c2996dd90875e55b50cf32c78dca55ad2e2dfae5d3db09b223838388033d87cf5920dd87
+  languageName: node
+  linkType: hard
+
+"focus-lock@npm:^0.11.2":
+  version: 0.11.2
+  resolution: "focus-lock@npm:0.11.2"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: 1575b406f917c0291e111e4bcac29b14cd6bc13c054e1bde23af39a8651b15ea9f9f69cb1b55f18d3a0255ea92c8b015f093330227359ded476ba241515caccb
   languageName: node
   linkType: hard
 
@@ -12871,6 +14017,45 @@ __metadata:
   dependencies:
     map-cache: ^0.2.2
   checksum: 5891d1c1d1d5e1a7fb3ccf28515c06731476fa88f7a50f4ede8a0d8d239a338448e7f7cc8b73db48da19c229fa30066104fe6489862065a4f1ed591c42fbeabf
+  languageName: node
+  linkType: hard
+
+"framer-motion@npm:^6.5.1":
+  version: 6.5.1
+  resolution: "framer-motion@npm:6.5.1"
+  dependencies:
+    "@emotion/is-prop-valid": ^0.8.2
+    "@motionone/dom": 10.12.0
+    framesync: 6.0.1
+    hey-listen: ^1.0.8
+    popmotion: 11.0.3
+    style-value-types: 5.0.0
+    tslib: ^2.1.0
+  peerDependencies:
+    react: ">=16.8 || ^17.0.0 || ^18.0.0"
+    react-dom: ">=16.8 || ^17.0.0 || ^18.0.0"
+  dependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+  checksum: 69d64f7ac878eb5a0d90f1ccbaaee76f7731b276c4369fdce7d283fa92cca35ea05c42ad2da0c6c0ab4bb180b7fa4f511b6928bdb43818f6feaf245531d3df5a
+  languageName: node
+  linkType: hard
+
+"framesync@npm:5.3.0":
+  version: 5.3.0
+  resolution: "framesync@npm:5.3.0"
+  dependencies:
+    tslib: ^2.1.0
+  checksum: c11771528171354b508c3b367b76deb2be542d4214946f2db46fc4db92eceb89eb9aa97c9386c3062536d7068e4d63689d58a35f8e5b0c456a6e86c23a2f35bc
+  languageName: node
+  linkType: hard
+
+"framesync@npm:6.0.1":
+  version: 6.0.1
+  resolution: "framesync@npm:6.0.1"
+  dependencies:
+    tslib: ^2.1.0
+  checksum: ce84ce548a8612be070204b9cf3ce7258acead2d51df05586995340e501d1439dfc1f9402ede921a9c0dde854d80fd46e97c699a3657f8d7abd5bc705553bf2b
   languageName: node
   linkType: hard
 
@@ -13101,6 +14286,13 @@ __metadata:
     has: ^1.0.3
     has-symbols: ^1.0.3
   checksum: f69a8e8758bab0a1a53853c347a6f4e22618352100339e6aa8f4cef46731a50e848d23dfe47c03c08beeed870b8777663e5dbfa9d53ebb2541754238118d81ad
+  languageName: node
+  linkType: hard
+
+"get-nonce@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "get-nonce@npm:1.0.1"
+  checksum: 2d7df55279060bf0568549e1ffc9b84bc32a32b7541675ca092dce56317cdd1a59a98dcc4072c9f6a980779440139a3221d7486f52c488e69dc0fd27b1efb162
   languageName: node
   linkType: hard
 
@@ -13790,6 +14982,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hey-listen@npm:^1.0.8":
+  version: 1.0.8
+  resolution: "hey-listen@npm:1.0.8"
+  checksum: 38db3028b4756f3d536c0f6a92da53bad577ab649b06dddfd0a4d953f9a46bbc6a7f693c8c5b466a538d6d23dbc469260c848427f0de14198a2bbecbac37b39e
+  languageName: node
+  linkType: hard
+
 "highlight.js@npm:^10.4.1, highlight.js@npm:~10.7.0":
   version: 10.7.3
   resolution: "highlight.js@npm:10.7.3"
@@ -13808,7 +15007,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.3.2":
+"hoist-non-react-statics@npm:^3.3.1, hoist-non-react-statics@npm:^3.3.2":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2"
   dependencies:
@@ -16616,7 +17815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.mergewith@npm:^4.6.2":
+"lodash.mergewith@npm:4.6.2, lodash.mergewith@npm:^4.6.2":
   version: 4.6.2
   resolution: "lodash.mergewith@npm:4.6.2"
   checksum: 4adbed65ff96fd65b0b3861f6899f98304f90fd71e7f1eb36c1270e05d500ee7f5ec44c02ef979b5ddbf75c0a0b9b99c35f0ad58f4011934c4d4e99e5200b3b5
@@ -18917,6 +20116,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"popmotion@npm:11.0.3":
+  version: 11.0.3
+  resolution: "popmotion@npm:11.0.3"
+  dependencies:
+    framesync: 6.0.1
+    hey-listen: ^1.0.8
+    style-value-types: 5.0.0
+    tslib: ^2.1.0
+  checksum: ed196cf034c199a2ab6095f047924b38e24f386c33a182970ad6e1769002b72adff34a72ba7ab2cf34ff5bbfd711ef4caf2e9843ebb7a5c9cafa27c50e525f70
+  languageName: node
+  linkType: hard
+
 "posix-character-classes@npm:^0.1.0":
   version: 0.1.1
   resolution: "posix-character-classes@npm:0.1.1"
@@ -19620,7 +20831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.8.1, prop-types@npm:^15.0.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:15.8.1, prop-types@npm:^15.0.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -19886,6 +21097,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-clientside-effect@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "react-clientside-effect@npm:1.2.6"
+  dependencies:
+    "@babel/runtime": ^7.12.13
+  peerDependencies:
+    react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: aba0adb666018e5c64657c31f4914a8558be73f71d6e2210fa871ebfcab94d786c83082868d7c7fa66feddc2aec19e375745cf0903e0619f2efffef08b92d941
+  languageName: node
+  linkType: hard
+
 "react-docgen-typescript@npm:^2.1.1":
   version: 2.2.2
   resolution: "react-docgen-typescript@npm:2.2.2"
@@ -19953,10 +21175,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-fast-compare@npm:^3.2.0":
+"react-fast-compare@npm:3.2.0, react-fast-compare@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-fast-compare@npm:3.2.0"
   checksum: 2a7d75ce9fb5da1e3c01f74a5cd592f3369a8cc8d44e93654bf147ab221f430238e8be70677e896f2bfcb96a1cb7a47a8d05d84633de764a9d57d27005a4bb9e
+  languageName: node
+  linkType: hard
+
+"react-focus-lock@npm:^2.9.1":
+  version: 2.9.1
+  resolution: "react-focus-lock@npm:2.9.1"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    focus-lock: ^0.11.2
+    prop-types: ^15.6.2
+    react-clientside-effect: ^1.2.6
+    use-callback-ref: ^1.3.0
+    use-sidecar: ^1.1.2
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 27df50d7265f9ace2d6354894fb77c5d32f18b1c6cee6c8da1fa004620cadc134181956dc218fab04cdd6c4822ae49c6eb4eca69fd6543b6790c85a16a8df3b8
   languageName: node
   linkType: hard
 
@@ -20045,6 +21287,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-remove-scroll-bar@npm:^2.3.3":
+  version: 2.3.3
+  resolution: "react-remove-scroll-bar@npm:2.3.3"
+  dependencies:
+    react-style-singleton: ^2.2.1
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 618550a02dbf53d9896a42fc6a06e86ab7857ce21ce9aa3c1ffc863ea072cafdcb7fe7e3706dac071472f8b4cb4bf1e7c63824dcb62cac8311e2fd4ccc1c7153
+  languageName: node
+  linkType: hard
+
+"react-remove-scroll@npm:^2.5.4":
+  version: 2.5.5
+  resolution: "react-remove-scroll@npm:2.5.5"
+  dependencies:
+    react-remove-scroll-bar: ^2.3.3
+    react-style-singleton: ^2.2.1
+    tslib: ^2.1.0
+    use-callback-ref: ^1.3.0
+    use-sidecar: ^1.1.2
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 4952657e6a7b9d661d4ad4dfcef81b9c7fa493e35164abff99c35c0b27b3d172ef7ad70c09416dc44dd14ff2e6b38a5ec7da27e27e90a15cbad36b8fd2fd8054
+  languageName: node
+  linkType: hard
+
 "react-sizeme@npm:^3.0.1":
   version: 3.0.2
   resolution: "react-sizeme@npm:3.0.2"
@@ -20054,6 +21331,23 @@ __metadata:
     shallowequal: ^1.1.0
     throttle-debounce: ^3.0.1
   checksum: e6b336bbc1e9de78de5c7177afd398f6ea14c4284af698475f08d34389e9307cbc36c0125a61b158e026f182ae4dd17b13c28683bbc1a371792bccd1e51cccff
+  languageName: node
+  linkType: hard
+
+"react-style-singleton@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "react-style-singleton@npm:2.2.1"
+  dependencies:
+    get-nonce: ^1.0.0
+    invariant: ^2.2.4
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 6d66f3bdb65e1ec79089f80314da97c9a005087a04ee034255a5de129a4c0d9fd0bf99fa7bf642781ac2dc745ca687aae3de082bd8afdd0d117bc953241e15ad
   languageName: node
   linkType: hard
 
@@ -21590,7 +22884,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.5.0, source-map@npm:^0.5.6":
+"source-map@npm:^0.5.0, source-map@npm:^0.5.6, source-map@npm:^0.5.7":
   version: 0.5.7
   resolution: "source-map@npm:0.5.7"
   checksum: 904e767bb9c494929be013017380cbba013637da1b28e5943b566031e29df04fba57edf3f093e0914be094648b577372bd8ad247fa98cfba9c600794cd16b599
@@ -22165,6 +23459,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"style-value-types@npm:5.0.0":
+  version: 5.0.0
+  resolution: "style-value-types@npm:5.0.0"
+  dependencies:
+    hey-listen: ^1.0.8
+    tslib: ^2.1.0
+  checksum: a7b693269d48c0cab73da6c88eade845e71b5f330541a9ccb6a065468739d9bafdeb34f94fb89581931371275846da53e35989218cbc0c2d1a38f127e4d765fd
+  languageName: node
+  linkType: hard
+
 "stylehacks@npm:^5.1.0":
   version: 5.1.0
   resolution: "stylehacks@npm:5.1.0"
@@ -22174,6 +23478,13 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.15
   checksum: 2c46413f9c21617f2537522ee89bd88416cf0dd1d4a7998da4445666cbd01364ec371ae326c2978df36ea020d1f161aa478feb70c7bb32e8085b0857e552c603
+  languageName: node
+  linkType: hard
+
+"stylis@npm:4.0.13":
+  version: 4.0.13
+  resolution: "stylis@npm:4.0.13"
+  checksum: bd567c440b4f1acf8962b1b3aa7985c4e04d7badfe1e0f1c7ee2a60912de2718973850c524001a3d52f5fc9a0e3dcd204b8bd7e2d47d4934462e9f749fd9c7bc
   languageName: node
   linkType: hard
 
@@ -22596,6 +23907,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tiny-invariant@npm:^1.0.6":
+  version: 1.2.0
+  resolution: "tiny-invariant@npm:1.2.0"
+  checksum: a7dd29c5256fdc4901e3adadaa203da62bd23c6a79830f7aa99ea2df5e2e82f84051550dcafb82af18b2d61d75dcc17993f01f938e9ad8f20cf4c514fff88d47
+  languageName: node
+  linkType: hard
+
 "tiny-lru@npm:7.0.6":
   version: 7.0.6
   resolution: "tiny-lru@npm:7.0.6"
@@ -22709,6 +24027,13 @@ __metadata:
     regex-not: ^1.0.2
     safe-regex: ^1.1.0
   checksum: 99d0b8ef397b3f7abed4bac757b0f0bb9f52bfd39167eb7105b144becfaa9a03756892352d01ac6a911f0c1ceef9f81db68c46899521a3eed054082042796120
+  languageName: node
+  linkType: hard
+
+"toggle-selection@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "toggle-selection@npm:1.0.6"
+  checksum: f2cf1f2c70f374fd87b0cdc8007453ba9e981c4305a8bf4eac10a30e62ecdfd28bca7d18f8f15b15a506bf8a7bfb20dbe3539f0fcf2a2c8396c1a78d53e1f179
   languageName: node
   linkType: hard
 
@@ -22905,7 +24230,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.2":
+"tslib@npm:^1.0.0, tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.2":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
@@ -23446,6 +24771,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"use-callback-ref@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "use-callback-ref@npm:1.3.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 8a0867ffd441f358c66d79567970a745cc78ac2f98840a81c1fa749a525e8716116c645497d886a815e1dcf40ad81a107ebd6a7d15fd9ab5925c44a994a1d89a
+  languageName: node
+  linkType: hard
+
+"use-sidecar@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "use-sidecar@npm:1.1.2"
+  dependencies:
+    detect-node-es: ^1.1.0
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.9.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 89f0018fd9aee1fc17c85ac18c4bf8944d460d453d0d0e04ddbc8eaddf3fa591e9c74a1f8a438a1bff368a7a2417fab380bdb3df899d2194c4375b0982736de0
+  languageName: node
+  linkType: hard
+
 "use@npm:^3.1.0":
   version: 3.1.1
   resolution: "use@npm:3.1.1"
@@ -23787,11 +25143,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:web"
   dependencies:
+    "@chakra-ui/react": ^2.2.4
+    "@emotion/react": ^11.9.3
+    "@emotion/styled": ^11.9.3
     "@redwoodjs/auth": 2.1.0
     "@redwoodjs/forms": 2.1.0
     "@redwoodjs/router": 2.1.0
     "@redwoodjs/web": 2.1.0
     core-js: ^3.23.5
+    framer-motion: ^6.5.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
